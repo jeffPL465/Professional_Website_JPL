@@ -1,0 +1,1 @@
+Hello Chuds, this will be my professional portfolio/CV. It is a streamlit-based website which will contain my contact information, education/work history, skills, and previously completed projects with freely available documentation.
