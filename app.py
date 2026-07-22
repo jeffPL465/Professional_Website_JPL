@@ -22,7 +22,7 @@ with col2:
 
 #     st.button('touch me =)')
     
-tab1, tab2, tab3 = st.tabs(3)
+tab1, tab2, tab3 = st.tabs(["Work History", "Skills", "Past Projects"])
 
 with tab1:
     st.header("Work History")
