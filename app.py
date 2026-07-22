@@ -8,17 +8,27 @@ col1, col2 = st.columns([3, 1])
 
 with col1:
     st.title("Jeffrey Ponce Lopes")
-    st.title("Professional Portfolio")
+    st.header("2026 Bachelors of Science | Electrical and Computer Engineering")
+    st.text("Worcester Polytechnic Institute")
 
 with col2: 
-    st.image('Pics_Vids/test_image1.png', width=500)
+    st.image('Pics_Vids/test_image1.png', width=800)
 
 
-# Add sidebar with buttons for each area
-with st.sidebar:
-    st.title("Welcome Chuds")
-    st.text("This shit is wild")
+# # Add sidebar with buttons for each area
+# with st.sidebar:
+#     st.title("Professional Portfolio")
+#     st.text("Please click below to navigate each section")
 
-    st.button('touch me =)')
+#     st.button('touch me =)')
     
+tab1, tab2, tab3 = st.tabs(3)
 
+with tab1:
+    st.header("Work History")
+
+with tab2:
+    st.header("Skills")
+
+with tab3:
+    st.header("Past Projects")
