@@ -3,8 +3,8 @@ from PIL import Image
 import pathlib
 import os
 
-st.set_page_config(layout='wide')
-col1, col2 = st.columns(3, 1)
+st.set_page_config(layout="wide")
+col1, col2 = st.columns([3, 1])
 
 with col1:
     st.title("Jeffrey Ponce Lopes")
