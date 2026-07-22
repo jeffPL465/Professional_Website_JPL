@@ -4,6 +4,7 @@ import pathlib
 import os
 
 st.title("El Jefe's Professional Portfolio")
+st.image('Pics_Vids/test_image1.png')
 
 # Add sidebar with buttons for each area
 with st.sidebar:
@@ -12,3 +13,4 @@ with st.sidebar:
 
     st.button('touch me =)')
     
+
